@@ -1,0 +1,14 @@
+GET  http://localhost:3000/api/notes
+###
+GET http://localhost:3000/api/notes/1
+###
+DELETE http://localhost:3000/api/notes/2
+###
+POST http://localhost:3000/api/notes
+Content-Type:application/json
+
+  {
+   "content": "new tasks 3"
+   
+   
+  }
